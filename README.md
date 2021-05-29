@@ -6,4 +6,4 @@ Imagery taken with "Dove" satellites, taken from [Planet Labs](https://www.plane
 
 Follow this link to see the comparison: https://sebastianfast.github.io/deforestation/
 
-![Demo of Website](https://github.com/sebastianfast/deforestation/blob/main/public/github/demo.png)
+![Demo of Website](https://github.com/sebastianfast/deforestation/blob/master/public/github/demo.png)

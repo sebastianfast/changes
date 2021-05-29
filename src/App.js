@@ -10,7 +10,7 @@ function App() {
     <Root>
       <Menu />
       <Page
-        markdownUrl="/comparisons/eitorf/markdown.txt"
+        markdownUrl="/comparisons/eitorf/markdown.md"
         beforeUrl="/comparisons/eitorf/2018-05_low.jpg"
         afterUrl="/comparisons/eitorf/2020-05_low.jpg"
         beforeDescription="May 2018"

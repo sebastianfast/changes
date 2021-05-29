@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/deforestation/static/css/main.349127a8.chunk.css",
-    "main.js": "/deforestation/static/js/main.e9910d0d.chunk.js",
-    "main.js.map": "/deforestation/static/js/main.e9910d0d.chunk.js.map",
+    "main.js": "/deforestation/static/js/main.c3f9d6a2.chunk.js",
+    "main.js.map": "/deforestation/static/js/main.c3f9d6a2.chunk.js.map",
     "runtime-main.js": "/deforestation/static/js/runtime-main.9e69c07f.js",
     "runtime-main.js.map": "/deforestation/static/js/runtime-main.9e69c07f.js.map",
     "static/js/2.d72468d5.chunk.js": "/deforestation/static/js/2.d72468d5.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.9e69c07f.js",
     "static/js/2.d72468d5.chunk.js",
     "static/css/main.349127a8.chunk.css",
-    "static/js/main.e9910d0d.chunk.js"
+    "static/js/main.c3f9d6a2.chunk.js"
   ]
 }

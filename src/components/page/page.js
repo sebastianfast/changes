@@ -18,7 +18,7 @@ function Component({
   centerDescription,
 }) {
   const [markdown, setMarkdown] = React.useState();
-  fetch(markdownUrl)
+  fetch(process.env.PUBLIC_URL + markdownUrl)
     .then((response) => response.text())
     .then((textContent) => {
       setMarkdown(textContent);

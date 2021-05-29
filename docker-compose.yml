@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: deforestation-client
+    env_file: .env
+    environment:
+      CHOKIDAR_USEPOLLING: 'true' # enables hot-reloading on windows host
+    ports:
+      - '3000:3000'
+    volumes:
+      - type: bind
+        source: .
+        target: /usr/app
+      - '/usr/app/node_modules'
+    tty: true
+
+    # Overrides default command so things don't shut down after the process ends.
+    command: /bin/sh -c "while sleep 1000; do :; done"

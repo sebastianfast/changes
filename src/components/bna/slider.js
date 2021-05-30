@@ -2,7 +2,7 @@ import React from 'react';
 import tw from 'twin.macro';
 import styled from 'styled-components';
 
-// import SliderBnA from '../../bna/SliderBnA';
+// import SliderBnA from '../../src/SliderBnA';
 import SliderBnA from 'react-bna';
 
 const Container = tw.div``;

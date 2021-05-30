@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: deforestation-client
+    container_name: changes-client
     env_file: .env
     environment:
       CHOKIDAR_USEPOLLING: 'true' # enables hot-reloading on windows host

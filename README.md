@@ -4,6 +4,6 @@ A before/after comparison showing ongoing deforestation between May 2018 and May
 
 Imagery taken with "Dove" satellites, taken from [Planet Labs](https://www.planet.com/).
 
-Follow this link to see the comparison: https://sebastianfast.github.io/deforestation/
+Follow this link to see the comparison: https://sebastianfast.github.io/changes/
 
-![Demo of Website](https://github.com/sebastianfast/deforestation/blob/master/public/github/demo.png)
+![Demo of Website](https://github.com/sebastianfast/changes/blob/master/public/github/demo.png)

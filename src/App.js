@@ -19,7 +19,7 @@ function App() {
           </Switch>
         </Container>
 
-        <Menu />
+        {/* <Menu /> */}
       </Root>
     </Router>
   );

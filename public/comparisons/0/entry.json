@@ -1,0 +1,14 @@
+[
+  {
+    "type": "md",
+    "file": "markdown.md"
+  },
+  {
+    "type": "ba",
+    "beforeUrl": "2018-05_low.jpg",
+    "afterUrl": "2020-05_low.jpg",
+    "beforeDescription": "May 2018",
+    "afterDescription": "May 2020",
+    "centerDescription": "Wälder auf dem Leuscheid|© Planet Labs"
+  }
+]

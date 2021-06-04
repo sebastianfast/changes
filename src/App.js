@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import tw from 'twin.macro';
-import Menu from './components/menu/menu';
+// import Menu from './components/menu/menu';
 import HomePage from './pages/home';
 import BeforeAfterPage from './pages/beforeAfter';
 

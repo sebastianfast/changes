@@ -17,6 +17,7 @@ function Component(props) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const useMountEffect = (fun) => React.useEffect(fun, []);
   const history = useHistory();
+  const [id, setId] = React.useState(null);
   const [baseUrl, setBaseUrl] = React.useState('');
   const [items, setItems] = React.useState([]);
   const url = window.location.href.split('/changes')[0];
@@ -33,6 +34,7 @@ function Component(props) {
 
   useMountEffect(() => {
     const comparsionId = props.match.params.id;
+    setId(comparsionId);
     const _baseUrl = `${process.env.PUBLIC_URL}/comparisons/${comparsionId}`;
     setBaseUrl(_baseUrl);
 
@@ -92,7 +94,10 @@ function Component(props) {
           property="og:image"
           content={`${url}${baseUrl}/${getMeta().image}`}
         />
-        <meta property="og:url" content={url + baseUrl} />
+        <meta
+          property="og:url"
+          content={url + process.env.PUBLIC_URL + '/ba/' + id}
+        />
       </MetaTags>
 
       <Toolbar>

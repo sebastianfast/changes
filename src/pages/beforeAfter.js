@@ -5,6 +5,7 @@ import gfm from 'remark-gfm';
 import BASlider from '../components/ba/slider';
 import { useHistory } from 'react-router-dom';
 import BackButton from '../components/button/back';
+import MetaTags from 'react-meta-tags';
 
 const Container = tw.div`p-5`;
 const MarkdownContainer = tw.article`w-full max-w-full`;
@@ -18,6 +19,17 @@ function Component(props) {
   const history = useHistory();
   const [baseUrl, setBaseUrl] = React.useState('');
   const [items, setItems] = React.useState([]);
+  const url = window.location.href.split('/changes')[0];
+
+  const getMeta = React.useCallback(() => {
+    for (const item of items) {
+      if (item.type === 'meta') {
+        console.log(item);
+        return item;
+      }
+    }
+    return {};
+  }, [items]);
 
   useMountEffect(() => {
     const comparsionId = props.match.params.id;
@@ -72,6 +84,17 @@ function Component(props) {
 
   return (
     <Container>
+      <MetaTags>
+        <meta property="og:type" content="blog" />
+        <meta property="og:title" content={getMeta().title} />
+        <meta property="og:description" content={getMeta().description} />
+        <meta
+          property="og:image"
+          content={`${url}${baseUrl}/${getMeta().image}`}
+        />
+        <meta property="og:url" content={url + baseUrl} />
+      </MetaTags>
+
       <Toolbar>
         <BackButton
           onClick={() => {

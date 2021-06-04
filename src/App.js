@@ -10,12 +10,12 @@ const Container = tw.div`mx-auto max-w-7xl`;
 
 function App() {
   return (
-    <Router>
+    <Router basename="/changes">
       <Root>
         <Container>
           <Switch>
-            <Route path="/changes/" exact component={HomePage} />
-            <Route path="/changes/ba/:id" component={BeforeAfterPage} />
+            <Route path="/" exact component={HomePage} />
+            <Route path="/ba/:id" component={BeforeAfterPage} />
           </Switch>
         </Container>
 

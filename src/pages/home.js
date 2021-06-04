@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <List
-        prefix="/changes/ba"
+        prefix="/ba"
         listUrl="/comparisons/list.json"
         markdownUrl="/comparisons/markdown.md"
       />

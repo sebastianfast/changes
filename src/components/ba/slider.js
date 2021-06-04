@@ -11,6 +11,7 @@ const Slider = styled(SliderBnA)`
 `;
 const DescContainer = tw.div`w-full flex flex-row justify-between px-2 pt-1`;
 const Desc = tw.span`text-sm`;
+const DescCenterContainer = tw.div`flex flex-col justify-center items-center`;
 
 function Component({
   beforeUrl,
@@ -22,8 +23,8 @@ function Component({
   let state = {
     showControls: true,
     divisorBorder: true,
-    before: process.env.PUBLIC_URL + beforeUrl,
-    after: process.env.PUBLIC_URL + afterUrl,
+    before: beforeUrl,
+    after: afterUrl,
     errorImage: 'https://media.giphy.com/media/pyqqSHqdekwVi/giphy.gif',
     alt: 'Before or after image',
     before_error: false,
@@ -56,7 +57,11 @@ function Component({
       />
       <DescContainer>
         <Desc>{beforeDescription}</Desc>
-        <Desc>{centerDescription}</Desc>
+        <DescCenterContainer>
+          {centerDescription.split('|').map((item, index) => (
+            <Desc key={index}>{item}</Desc>
+          ))}
+        </DescCenterContainer>
         <Desc>{afterDescription}</Desc>
       </DescContainer>
     </Container>

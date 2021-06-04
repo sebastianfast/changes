@@ -1,23 +1,27 @@
 import React from 'react';
-import Menu from './components/menu/menu';
-import Page from './components/page/page';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import tw from 'twin.macro';
+import Menu from './components/menu/menu';
+import HomePage from './pages/home';
+import BeforeAfterPage from './pages/beforeAfter';
 
 const Root = tw.div``;
+const Container = tw.div`mx-auto max-w-7xl`;
 
 function App() {
   return (
-    <Root>
-      <Menu />
-      <Page
-        markdownUrl="/comparisons/eitorf/markdown.md"
-        beforeUrl="/comparisons/eitorf/2018-05_low.jpg"
-        afterUrl="/comparisons/eitorf/2020-05_low.jpg"
-        beforeDescription="May 2018"
-        afterDescription="May 2020"
-        centerDescription="Wälder auf dem Leuscheid © Planet Labs"
-      />
-    </Root>
+    <Router>
+      <Root>
+        <Container>
+          <Switch>
+            <Route path="/" exact component={HomePage} />
+            <Route path="/ba/:id" component={BeforeAfterPage} />
+          </Switch>
+        </Container>
+
+        <Menu />
+      </Root>
+    </Router>
   );
 }
 

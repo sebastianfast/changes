@@ -3,15 +3,19 @@ import tw from 'twin.macro';
 import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
 import BASlider from '../components/ba/slider';
+import { useHistory } from 'react-router-dom';
+import BackButton from '../components/button/back';
 
 const Container = tw.div`p-5`;
 const MarkdownContainer = tw.article`w-full max-w-full`;
 const Markdown = tw(ReactMarkdown)``;
 const SliderContainer = tw.div``;
+const Toolbar = tw.div`mb-5`;
 
 function Component(props) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const useMountEffect = (fun) => React.useEffect(fun, []);
+  const history = useHistory();
   const [baseUrl, setBaseUrl] = React.useState('');
   const [items, setItems] = React.useState([]);
 
@@ -68,6 +72,16 @@ function Component(props) {
 
   return (
     <Container>
+      <Toolbar>
+        <BackButton
+          onClick={() => {
+            history.goBack();
+          }}
+        >
+          Back
+        </BackButton>
+      </Toolbar>
+
       {items.map((item, index) => (
         <div key={index}>
           {item.type === 'md' && (

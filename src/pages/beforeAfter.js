@@ -103,7 +103,7 @@ function Component(props) {
       <Toolbar>
         <BackButton
           onClick={() => {
-            history.goBack();
+            history.push('/');
           }}
         >
           Back

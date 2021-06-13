@@ -1,0 +1,26 @@
+[
+  { 
+    "type": "meta",
+    "title": "Surface Mining, Germany: 1998 to 2020",
+    "description": "Before/after comparison of surface mining sites in Germany from 1998 to 2020",
+    "image": "preview.jpg"
+  },
+  {
+    "type": "md",
+    "file": "markdown.md"
+  },
+  {
+    "type": "gif",
+    "url": "hambach.gif",
+    "description": "Hambach, Cologne|Taken from Geobasis NRW"
+  },
+  {
+    "type": "md",
+    "file": "markdown2.md"
+  },
+  {
+    "type": "gif",
+    "url": "hambach_dorf.gif",
+    "description": "Etzweiler, Cologne|Taken from Geobasis NRW"
+  }
+]

@@ -1,8 +1,8 @@
 [
   { 
     "type": "meta",
-    "title": "Widdersdorf, Cologne: 1998 - 2020",
-    "description": "Before/after view of Widdersdorf in 1998 and 2020",
+    "title": "Widdersdorf, Germany: 1998 and 2020",
+    "description": "Before/after comparison of Widdersdorf in 1998 and 2020",
     "image": "preview.jpg"
   },
   {
@@ -15,6 +15,6 @@
     "afterUrl": "2020.jpg",
     "beforeDescription": "1998",
     "afterDescription": "2020",
-    "centerDescription": "Widdersdorf, Cologne|Taken from Geobasis NRW"
+    "centerDescription": "Widdersdorf, Germany|Taken from Geobasis NRW"
   }
 ]

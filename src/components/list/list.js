@@ -2,21 +2,18 @@ import React from 'react';
 import tw from 'twin.macro';
 import ReactMarkdown from 'react-markdown';
 import gfm from 'remark-gfm';
-// import CardGrid from '../cards/grid';
-
-import { Link } from 'react-router-dom';
+import CardGrid from '../cards/grid';
 
 const Container = tw.div`p-5`;
 const MarkdownContainer = tw.article`w-full max-w-full`;
 const Markdown = tw(ReactMarkdown)``;
-const ItemLink = tw(Link)``;
 
 function Component({ prefix, listUrl, markdownUrl }) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const useMountEffect = (fun) => React.useEffect(fun, []);
   const [list, setList] = React.useState([]);
   const [markdown, setMarkdown] = React.useState();
-  const [loading, setLoading] = React.useState(true);
+  const [loading, setLoading] = React.useState(1);
   const url =
     window.location.href.split('/changes')[0] + process.env.PUBLIC_URL;
 
@@ -25,7 +22,7 @@ function Component({ prefix, listUrl, markdownUrl }) {
       .then((response) => response.text())
       .then((textContent) => {
         setList(JSON.parse(textContent));
-        setLoading(false);
+        setLoading(0);
       });
 
     fetch(process.env.PUBLIC_URL + markdownUrl)
@@ -41,20 +38,12 @@ function Component({ prefix, listUrl, markdownUrl }) {
         <Markdown remarkPlugins={[gfm]}>{markdown}</Markdown>
       </MarkdownContainer>
 
-      <ul>
-        {list.map((item, index) => (
-          <li key={index}>
-            <ItemLink to={`${prefix}/${item.id}`}>{item.title}</ItemLink>
-          </li>
-        ))}
-      </ul>
-
-      {/* <CardGrid
+      <CardGrid
         url={url}
         prefix={prefix}
         items={list}
         loading={loading}
-      ></CardGrid> */}
+      ></CardGrid>
     </Container>
   );
 }

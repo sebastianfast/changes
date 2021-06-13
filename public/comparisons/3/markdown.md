@@ -1,1 +1,0 @@
-# Hove, Germany: 2007 and 2019

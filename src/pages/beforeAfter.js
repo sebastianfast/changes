@@ -6,6 +6,7 @@ import BASlider from '../components/ba/slider';
 import { useHistory } from 'react-router-dom';
 import BackButton from '../components/button/back';
 import MetaTags from 'react-meta-tags';
+import Gif from '../components/gif/gif';
 
 const Container = tw.div`p-5`;
 const MarkdownContainer = tw.article`w-full max-w-full`;
@@ -121,6 +122,12 @@ function Component(props) {
                 centerDescription={item.centerDescription}
               />
             </SliderContainer>
+          )}
+          {item.type === 'gif' && (
+            <Gif
+              url={`${url}/ba/${id}/${item.url}`}
+              description={item.description}
+            />
           )}
         </div>
       ))}

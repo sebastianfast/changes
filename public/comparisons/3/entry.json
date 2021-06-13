@@ -1,0 +1,20 @@
+[
+  { 
+    "type": "meta",
+    "title": "Hove, Germany: 2007 and 2019",
+    "description": "Before/after comparison of Hove, Germany in 2007 and 2019",
+    "image": "preview.jpg"
+  },
+  {
+    "type": "md",
+    "file": "markdown.md"
+  },
+  {
+    "type": "ba",
+    "beforeUrl": "2008.jpg",
+    "afterUrl": "2019.jpg",
+    "beforeDescription": "2017",
+    "afterDescription": "2019",
+    "centerDescription": "Hove, Germany|Taken from Geobasis NRW"
+  }
+]

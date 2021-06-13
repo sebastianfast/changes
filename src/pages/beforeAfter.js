@@ -18,14 +18,13 @@ function Component(props) {
   const useMountEffect = (fun) => React.useEffect(fun, []);
   const history = useHistory();
   const [id, setId] = React.useState(null);
-  const [baseUrl, setBaseUrl] = React.useState('');
   const [items, setItems] = React.useState([]);
-  const url = window.location.href.split('/changes')[0];
+  const url =
+    window.location.href.split('/changes')[0] + process.env.PUBLIC_URL;
 
   const getMeta = React.useCallback(() => {
     for (const item of items) {
       if (item.type === 'meta') {
-        console.log(item);
         return item;
       }
     }
@@ -33,12 +32,10 @@ function Component(props) {
   }, [items]);
 
   useMountEffect(() => {
-    const comparsionId = props.match.params.id;
-    setId(comparsionId);
-    const _baseUrl = `${process.env.PUBLIC_URL}/comparisons/${comparsionId}`;
-    setBaseUrl(_baseUrl);
+    const _id = props.match.params.id;
+    setId(_id);
 
-    fetch(`${_baseUrl}/entry.json`)
+    fetch(`${url}/ba/${_id}/entry.json`)
       .then((response) => response.text())
       .then(async (textContent) => {
         const _items = JSON.parse(textContent);
@@ -48,7 +45,7 @@ function Component(props) {
           let promises = [];
           for (const item of _items) {
             if (item.type === 'md') {
-              promises.push(fetch(`${_baseUrl}/${item.file}`));
+              promises.push(fetch(`${url}/ba/${_id}/${item.file}`));
             }
           }
           const responses = await Promise.all(promises);
@@ -92,12 +89,9 @@ function Component(props) {
         <meta property="og:description" content={getMeta().description} />
         <meta
           property="og:image"
-          content={`${url}${baseUrl}/${getMeta().image}`}
+          content={`${url}/ba/${id}/${getMeta().image}`}
         />
-        <meta
-          property="og:url"
-          content={url + process.env.PUBLIC_URL + '/ba/' + id}
-        />
+        <meta property="og:url" content={`${url}/ba/${id}`} />
       </MetaTags>
 
       <Toolbar>
@@ -120,8 +114,8 @@ function Component(props) {
           {item.type === 'ba' && (
             <SliderContainer>
               <BASlider
-                beforeUrl={`${baseUrl}/${item.beforeUrl}`}
-                afterUrl={`${baseUrl}/${item.afterUrl}`}
+                beforeUrl={`${url}/ba/${id}/${item.beforeUrl}`}
+                afterUrl={`${url}/ba/${id}/${item.afterUrl}`}
                 beforeDescription={item.beforeDescription}
                 afterDescription={item.afterDescription}
                 centerDescription={item.centerDescription}

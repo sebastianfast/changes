@@ -1,0 +1,32 @@
+[
+  { 
+    "type": "meta",
+    "title": "Bark Beetle Infestation in Harz, Germany: 2018 and 2021",
+    "description": "Before/after comparison of Harz Area in 2018 and 2021",
+    "image": "preview.jpg"
+  },
+  {
+    "type": "md",
+    "file": "section_1.md"
+  },
+  {
+    "type": "ba",
+    "beforeUrl": "2018-04_harz.jpg",
+    "afterUrl": "2021-05_harz.jpg",
+    "beforeDescription": "10th April 2018",
+    "afterDescription": "9th May 2021",
+    "centerDescription": "Harz, Germay|Contains modified Copernicus Sentinel data 2021"
+  },
+  {
+    "type": "md",
+    "file": "section_2.md"
+  },
+  {
+    "type": "ba",
+    "beforeUrl": "2018-04_zoom.jpg",
+    "afterUrl": "2021-05_zoom.jpg",
+    "beforeDescription": "10th April 2018",
+    "afterDescription": "9th May 2021",
+    "centerDescription": "Oberharz, Germay|Contains modified Copernicus Sentinel data 2021"
+  }
+]

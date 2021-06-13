@@ -1,9 +1,7 @@
-# Before/After Comparison of Ongoing Deforestation
+# Before/After Comparison of Environmental / Natural Changes
 
-A before/after comparison showing ongoing deforestation between May 2018 and May 2020 in my home region. The deforestation occured due to the massive infastation of bark beetles killing most spruce trees in this region.
+This is the source code of my hobby project website, where I compare satellite/aerial imagery taken different years to see how time affects environmental / natural change.  
 
-Imagery taken with "Dove" satellites, taken from [Planet Labs](https://www.planet.com/).
+Follow this link to see many pretty comparisons: https://sebastianfast.github.io/changes/
 
-Follow this link to see the comparison: https://sebastianfast.github.io/changes/
-
-![Demo of Website](https://github.com/sebastianfast/changes/blob/master/public/github/demo.png)
+![Demo Comparison](https://github.com/sebastianfast/changes/blob/master/public/github/demo.png)

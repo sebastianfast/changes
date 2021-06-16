@@ -1,0 +1,1 @@
+## Tagebau Bergheim, 1998 to 2019

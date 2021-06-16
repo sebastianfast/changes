@@ -1,0 +1,1 @@
+## Tagebau Garzweiler, 1998 to 2019

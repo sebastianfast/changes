@@ -1,0 +1,1 @@
+## Tagebau Zwenkau, 2005 to 2018

@@ -7,20 +7,62 @@
   },
   {
     "type": "md",
-    "file": "markdown.md"
+    "file": "hambach.md"
   },
   {
     "type": "gif",
     "url": "hambach.gif",
-    "description": "Hambach, Cologne|Taken from Geobasis NRW"
+    "description": "Tagebau Hambach, North Rhine-Westphalia|Taken from Geobasis NRW"
   },
   {
     "type": "md",
-    "file": "markdown2.md"
+    "file": "etzweiler.md"
   },
   {
     "type": "gif",
-    "url": "hambach_dorf.gif",
-    "description": "Etzweiler, Cologne|Taken from Geobasis NRW"
+    "url": "etzweiler.gif",
+    "description": "Etzweiler, North Rhine-Westphalia|Taken from Geobasis NRW"
+  },
+  {
+    "type": "md",
+    "file": "fortuna-garsdorf.md"
+  },
+  {
+    "type": "ba",
+    "beforeUrl": "fortuna-garsdorf_1998.jpg",
+    "afterUrl": "fortuna-garsdorf_2019.jpg",
+    "beforeDescription": "1998",
+    "afterDescription": "2019",
+    "centerDescription": "Tagebau Fortuna-Garsdorf, Sachsen|Taken from Geobasis NRW"
+  },
+  {
+    "type": "md",
+    "file": "bergheim.md"
+  },
+  {
+    "type": "gif",
+    "url": "bergheim.gif",
+    "description": "Tagebau Bergheim, North Rhine-Westphalia|Taken from Geobasis NRW"
+  },
+  {
+    "type": "md",
+    "file": "garzweiler.md"
+  },
+  {
+    "type": "gif",
+    "url": "garzweiler.gif",
+    "description": "Tagebau Garzweiler, North Rhine-Westphalia|Taken from Geobasis NRW"
+  },
+  {
+    "type": "md",
+    "file": "zwenkau.md"
+  },
+  {
+    "type": "ba",
+    "beforeUrl": "zwenkau_2005.jpg",
+    "afterUrl": "zwenkau_2018.jpg",
+    "beforeDescription": "2005",
+    "afterDescription": "2018",
+    "centerDescription": "Tagebau Zwenkau, Sachsen|Taken from Landesvermessung Sachsen"
   }
 ]

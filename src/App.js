@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import tw from 'twin.macro';
 import Menu from './components/menu/menu';
 import HomePage from './pages/home';
+import ArticlePage from './pages/article';
 import BeforeAfterPage from './pages/beforeAfter';
 
 const Root = tw.div``;
@@ -15,7 +16,8 @@ function App() {
         <Container>
           <Switch>
             <Route path="/" exact component={HomePage} />
-            <Route path="/ba/:id" component={BeforeAfterPage} />
+            <Route path="/ba/:id" exact component={ArticlePage} />
+            <Route path="/ba/:id/:name" exact component={BeforeAfterPage} />
           </Switch>
         </Container>
 

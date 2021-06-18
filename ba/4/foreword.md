@@ -1,4 +1,4 @@
-# Surface Mining, Germany: 1998 to 2019
+# Tagebau in Deutschland: Luftbildreihen und Vergleiche von 1998 bis 2019
 
 ### Hallo miteinander
 

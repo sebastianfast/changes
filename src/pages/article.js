@@ -94,6 +94,15 @@ function Component(props) {
           content={`${url}/ba/${id}/${getMeta().image}`}
         />
         <meta property="og:url" content={`${url}/ba/${id}`} />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content={getMeta().title} />
+        <meta property="twitter:description" content={getMeta().description} />
+        <meta
+          property="twitter:image:src"
+          content={`${url}/ba/${id}/${getMeta().image}`}
+        />
+        <meta property="twitter:url" content={`${url}/ba/${id}`} />
+        <meta property="twitter:site" content={`${url}`} />
       </MetaTags>
 
       <Toolbar>

@@ -7,12 +7,21 @@
   },
   {
     "type": "md",
+    "file": "foreword.md"
+  },
+  {
+    "type": "jpg",
+    "url": "koeln-uebersicht.jpg",
+    "description": "Rheinisches Braunkohlerevier, Nordrhein-Westfalen|Ursprung Geobasis NRW"
+  },
+  {
+    "type": "md",
     "file": "hambach.md"
   },
   {
     "type": "gif",
     "url": "hambach.gif",
-    "description": "Tagebau Hambach, North Rhine-Westphalia|Taken from Geobasis NRW"
+    "description": "Tagebau Hambach, Nordrhein-Westfalen|Ursprung Geobasis NRW"
   },
   {
     "type": "md",
@@ -21,7 +30,7 @@
   {
     "type": "gif",
     "url": "etzweiler.gif",
-    "description": "Etzweiler, North Rhine-Westphalia|Taken from Geobasis NRW"
+    "description": "Etzweiler, Nordrhein-Westfalen|Ursprung Geobasis NRW"
   },
   {
     "type": "md",
@@ -34,7 +43,7 @@
     "afterUrl": "fortuna-garsdorf_2019.jpg",
     "beforeDescription": "1998",
     "afterDescription": "2019",
-    "centerDescription": "Tagebau Fortuna-Garsdorf, Sachsen|Taken from Geobasis NRW"
+    "centerDescription": "Tagebau Fortuna-Garsdorf, Nordrhein-Westfalen|Ursprung Geobasis NRW"
   },
   {
     "type": "md",
@@ -43,7 +52,7 @@
   {
     "type": "gif",
     "url": "bergheim.gif",
-    "description": "Tagebau Bergheim, North Rhine-Westphalia|Taken from Geobasis NRW"
+    "description": "Tagebau Bergheim, Nordrhein-Westfalen|Ursprung from Geobasis NRW"
   },
   {
     "type": "md",
@@ -52,7 +61,7 @@
   {
     "type": "gif",
     "url": "garzweiler.gif",
-    "description": "Tagebau Garzweiler, North Rhine-Westphalia|Taken from Geobasis NRW"
+    "description": "Tagebau Garzweiler, Nordrhein-Westfalen|Ursprung from Geobasis NRW"
   },
   {
     "type": "md",
@@ -65,6 +74,14 @@
     "afterUrl": "zwenkau_2018.jpg",
     "beforeDescription": "2005",
     "afterDescription": "2018",
-    "centerDescription": "Tagebau Zwenkau, Sachsen|Taken from Landesvermessung Sachsen"
+    "centerDescription": "Tagebau Zwenkau, Sachsen|Ursprung Landesvermessung Sachsen"
+  },
+  {
+    "type": "md",
+    "file": "schluss.md"
+  },
+  {
+    "type": "md",
+    "file": "quellen.md"
   }
 ]

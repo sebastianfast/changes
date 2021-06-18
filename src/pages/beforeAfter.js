@@ -17,6 +17,7 @@ function Component(props) {
   const [items, setItems] = React.useState([]);
   const url =
     window.location.href.split('/changes')[0] + process.env.PUBLIC_URL;
+  console.log('url', url);
 
   useMountEffect(() => {
     const _id = props.match.params.id;

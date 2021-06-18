@@ -17,7 +17,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={HomePage} />
             <Route path="/ba/:id" exact component={ArticlePage} />
-            <Route path="/ba/:id/:name" exact component={BeforeAfterPage} />
+            <Route path="/ba/:id/only/:name" component={BeforeAfterPage} />
           </Switch>
         </Container>
 

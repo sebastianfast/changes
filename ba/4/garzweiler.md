@@ -1,1 +1,3 @@
-## Tagebau Garzweiler, 1998 to 2019
+### Tagebau Garzweiler, 1998 to 2019
+
+Genauer gesagt: Garzweiler I und Garzweiler II. Garzweiler I liegt östlich der Autobahn A44 (in der Mitte der Bilder ab 2019) und misst eine größe von etwa 48 km². Garzweiler II ist der westliche Teil mit etwa 66 km². Geschürft wurde hier schon seit dem frühen 20. Jahrhundert. Garzweiler I entstand aber erst offiziell 1983 durch den Zusammenschluss zweier Gruben Frimmersdorf-Süd sowie Frimmersdorf-West. Die Trennung in zwei Tagebauten fand etwa 2014 statt. Bereits 6.300 Menschen aus 17 Dörfern mussten umziehen. Derzeitig ist geplant dort bis etwa 2038 Braunkohle abzubauen.

@@ -1,0 +1,1 @@
+Ich hoffe die Bilder haben euch gefallen - mir auf jeden Fall! Falls ihr weitere Anregungen habt von anderen Vergleichen von Stadtgebieten, Landschaften oder sonstigen Phänomenen, die man aus dem All oder aus der Luft beobachten kann, gerne auch außerhalb Deutschlands, dann immer her damit!

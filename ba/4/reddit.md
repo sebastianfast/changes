@@ -56,7 +56,7 @@ Ein kurzer Ausschnitt aus [Wikipedia](https://de.wikipedia.org/wiki/Tagebau_Fort
 
 Wie bereits erwähnt, stammt das erste Bild von 1998, das heißt, dass der Großteil des Tagebaus zu diesem Zeitpunkt bereits wieder aufgeschüttet wurde. Viel vom Tagebau sieht man also nicht mehr. Interessant fand ich den Ausschnitt dennoch, da man hier einen krassen Unterschied zwischen "Mondlandschaft" und rekultivierter (und im Auge des Betrachters hübscher) Nutzfläche sieht.
 
-[Tagebau Fortuna-Garsdorf Vergleich](https://sebastianfast.github.io/changes/ba/4/fortuna-garsdorf)
+[Tagebau Fortuna-Garsdorf Vergleich](https://sebastianfast.github.io/changes/ba/4/only/fortuna-garsdorf)
 
 ### Tagebau Bergheim, 1998 to 2019
 
@@ -86,7 +86,7 @@ Betriebsbeginn 1921, Betriebsende 1998, Fläche 28.5 km². Zwar existieren Luftb
 
 Ein letzter vielleicht interessanter Fakt ist, dass die Ortschaft Zwenkau zwar direkt vom Tagebau betroffen war, nun allerdings einen kleinen Hafen besitzt.
 
-[Tagebau Zwenkau Vergleich](https://sebastianfast.github.io/changes/ba/4/zwenkau)
+[Tagebau Zwenkau Vergleich](https://sebastianfast.github.io/changes/ba/4/only/zwenkau)
 
 Ich hoffe die Bilder haben euch gefallen - mir auf jeden Fall! Falls ihr weitere Anregungen habt von anderen Vergleichen von Stadtgebieten, Landschaften oder sonstigen Phänomenen, die man aus dem All oder aus der Luft beobachten kann, gerne auch außerhalb Deutschlands, dann immer her damit!
 

@@ -24,6 +24,7 @@ function Component(props) {
     const _name = props.match.params.name;
     setId(_id);
     setName(_name);
+    console.log(_id, _name);
 
     fetch(`${url}/ba/${_id}/entry.json`)
       .then((response) => response.text())

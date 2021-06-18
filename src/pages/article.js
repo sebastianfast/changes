@@ -86,7 +86,7 @@ function Component(props) {
   return (
     <Container>
       <MetaTags>
-        <meta property="og:type" content="blog" />
+        <meta property="og:type" content="website" />
         <meta property="og:title" content={getMeta().title} />
         <meta property="og:description" content={getMeta().description} />
         <meta

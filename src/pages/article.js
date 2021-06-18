@@ -7,6 +7,7 @@ import { useHistory } from 'react-router-dom';
 import BackButton from '../components/button/back';
 import MetaTags from 'react-meta-tags';
 import Gif from '../components/gif/gif';
+import Jpg from '../components/jpg/jpg';
 
 const Container = tw.div`p-5`;
 const MarkdownContainer = tw.article`w-full max-w-full`;
@@ -125,6 +126,12 @@ function Component(props) {
           )}
           {item.type === 'gif' && (
             <Gif
+              url={`${url}/ba/${id}/${item.url}`}
+              description={item.description}
+            />
+          )}
+          {item.type === 'jpg' && (
+            <Jpg
               url={`${url}/ba/${id}/${item.url}`}
               description={item.description}
             />
